@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    background-color: rgb(71, 71, 71);
+}
+
+section{
+    max-width: 83rem;
+    margin: 0 auto;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 600px;
+}
+
+.container_cali{
+ padding: 5px;
+}
+
+#cali input{
+    padding: 5px 15px;
+    border: 0;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+}
+
+#cali button{
+    background-color: blue;
+    padding: 5px 15px;
+    font-size: 20px;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+}
+
+.container_resultado{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 74%;
+    height: 50px;
+}
+
+.container_resultado p{
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    margin: 0 15px 0 0;
+    padding: 5px 10px;
+    border: 2px solid white;
+
+}
